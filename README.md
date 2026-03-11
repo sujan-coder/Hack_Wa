@@ -85,14 +85,14 @@ The watch also accepts passwords via the HackWa app's NUS data channel.
 
 ---
 
-## Chronos App Setup
+## HAckWa App Setup
 
-1. Install the **[Chronos](https://chronos.ke/app?id=esp32)** app from Google Play
+1. Install the **[HackWa](https://chronos.ke/app?id=esp32)** app from Google Play
 2. Open app → **Watches** tab → **Pair New Devices** → **Search**
-3. Select "**Chronos**" from the scan results
+3. Select "**HackWa**" from the scan results
 4. Time syncs automatically; notifications forwarded from your phone
 
-> **Important:** Make sure the watch is NOT paired in your phone's system Bluetooth settings. Only pair through the Chronos app.
+> **Important:** Make sure the watch is NOT paired in your phone's system Bluetooth settings. Only pair through the HackWa app.
 
 ---
 
