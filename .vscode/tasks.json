@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "PlatformIO: Build",
+            "type": "shell",
+            "command": "${env:USERPROFILE}\\.platformio\\penv\\Scripts\\pio.exe",
+            "args": ["run", "-e", "seeed_xiao_esp32c6"],
+            "options": {
+                "cwd": "${workspaceFolder}/HackWa"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false
+            }
+        },
+        {
+            "label": "PlatformIO: Clean",
+            "type": "shell",
+            "command": "${env:USERPROFILE}\\.platformio\\penv\\Scripts\\pio.exe",
+            "args": ["run", "-t", "clean", "-e", "seeed_xiao_esp32c6"],
+            "options": {
+                "cwd": "${workspaceFolder}/HackWa"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
