@@ -2,9 +2,7 @@
 
 A DIY smartwatch and hacking multi-tool built on the **Seeed XIAO ESP32-C6** with an **SSD1306 128×64 OLED** display and four physical buttons. It pairs with a custom Android companion app over BLE and doubles as a wireless keyboard password manager.
 
----
-
-<img width="4892" height="4178" alt="20260528_191309" src="https://github.com/user-attachments/assets/bb890238-9226-4869-813c-c9d75525c091" />
+<img width="6120" height="2778" alt="20260528_192047" src="https://github.com/user-attachments/assets/6c6c83be-ee9e-43f2-bbd3-b4eea864b8a4" />
 
 ## What Is This?
 
@@ -15,7 +13,7 @@ HackWa started as a simple idea: what if a smartwatch could also be a security t
 
 On top of that, the watch has a **Power Tools** menu with a BLE scanner (see nearby Bluetooth devices and their signal strength) and a BLE advertising jammer for pen-testing scenarios.
 
----
+<img width="5800" height="2678" alt="20260528_192108" src="https://github.com/user-attachments/assets/f454c0c1-e469-4a1c-8a61-abae160dfa8f" />
 
 ## Features
 
@@ -73,9 +71,9 @@ The companion app is built with **Jetpack Compose** and runs a **foreground serv
 5. **Settings** – timezone, screen timeout slider, brightness selector, raw command input
 
 ---
-<img width="6088" height="2810" alt="20260528_191454" src="https://github.com/user-attachments/assets/307d88d4-0f51-453c-8ccd-88b9f4191c3a" />
 
 ## Hardware
+<img width="6088" height="2810" alt="20260528_191454" src="https://github.com/user-attachments/assets/6836eb0d-a6bd-4f15-b7da-8071dbe4f1cc" />
 
 | Component | Part |
 |-----------|------|
@@ -83,6 +81,7 @@ The companion app is built with **Jetpack Compose** and runs a **foreground serv
 | Display | SSD1306 128×64 OLED (I2C) |
 | Buttons | 4× tactile switches (UP, DOWN, SELECT, BACK) 1x slide switch (On/Off) |
 | Battery | 150 mah |
+
 
 ### Pin Wiring
 
@@ -135,14 +134,13 @@ The companion app is built with **Jetpack Compose** and runs a **foreground serv
 Tools available: Always-On Display, Countdown Timer, BLE Jammer, BLE Scanner.
 
 ### HID Mode
+<img width="6054" height="2794" alt="20260528_191344" src="https://github.com/user-attachments/assets/b8b644fd-6cd5-4fa2-9dae-bfd04706ed35" />
 
 | Button | Action |
 |--------|--------|
 | **UP / DOWN** | Scroll password list |
 | **SEL** | Type selected password + Enter |
 | **BACK** | Switch back to Watch Mode |
-
-<img width="6054" height="2794" alt="20260528_191344" src="https://github.com/user-attachments/assets/3ebb8de5-74ee-4ba9-86a3-54cae4810fbd" />
 
 ---
 
@@ -209,7 +207,6 @@ The APK will be at `companion_app/app/build/outputs/apk/debug/`.
 
 ---
 
-<img width="6120" height="2778" alt="20260528_192047" src="https://github.com/user-attachments/assets/4d7afab8-1597-45c5-b855-3f986f6402d5" />
 
 
 ## Tech Stack
@@ -222,7 +219,6 @@ The APK will be at `companion_app/app/build/outputs/apk/debug/`.
 | Password storage | ESP32 NVS (Non-Volatile Storage) flash |
 | Companion app | Kotlin + Jetpack Compose + BLE foreground service |
 
-<img width="5800" height="2678" alt="20260528_192108" src="https://github.com/user-attachments/assets/f6a0d29c-da44-49e7-99f0-fd75bd74f0ad" />
 
 
 ## Pin Wiring
