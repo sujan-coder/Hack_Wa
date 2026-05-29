@@ -240,3 +240,6 @@ The APK will be at `companion_app/app/build/outputs/apk/debug/`.
 ~/.platformio/penv/bin/pio device monitor
 ```
 
+<img width="1006" height="2337" alt="homepage" src="https://github.com/user-attachments/assets/66dbbed9-4d53-4e3a-ba3f-9e84031fd014" />
+
+
