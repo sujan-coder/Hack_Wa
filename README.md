@@ -4,6 +4,8 @@ A DIY smartwatch and hacking multi-tool built on the **Seeed XIAO ESP32-C6** wit
 
 ---
 
+<img width="4892" height="4178" alt="20260528_191309" src="https://github.com/user-attachments/assets/bb890238-9226-4869-813c-c9d75525c091" />
+
 ## What Is This?
 
 HackWa started as a simple idea: what if a smartwatch could also be a security tool? The result is a wearable that runs in two distinct modes:
@@ -71,6 +73,7 @@ The companion app is built with **Jetpack Compose** and runs a **foreground serv
 5. **Settings** – timezone, screen timeout slider, brightness selector, raw command input
 
 ---
+<img width="6088" height="2810" alt="20260528_191454" src="https://github.com/user-attachments/assets/307d88d4-0f51-453c-8ccd-88b9f4191c3a" />
 
 ## Hardware
 
@@ -139,6 +142,8 @@ Tools available: Always-On Display, Countdown Timer, BLE Jammer, BLE Scanner.
 | **SEL** | Type selected password + Enter |
 | **BACK** | Switch back to Watch Mode |
 
+<img width="6054" height="2794" alt="20260528_191344" src="https://github.com/user-attachments/assets/3ebb8de5-74ee-4ba9-86a3-54cae4810fbd" />
+
 ---
 
 ## Managing Passwords
@@ -204,6 +209,9 @@ The APK will be at `companion_app/app/build/outputs/apk/debug/`.
 
 ---
 
+<img width="6120" height="2778" alt="20260528_192047" src="https://github.com/user-attachments/assets/4d7afab8-1597-45c5-b855-3f986f6402d5" />
+
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -213,6 +221,9 @@ The APK will be at `companion_app/app/build/outputs/apk/debug/`.
 | BLE stack | NimBLE with CTS, ANS, NUS, BAS, DIS services (watch mode) and HID service (keyboard mode) |
 | Password storage | ESP32 NVS (Non-Volatile Storage) flash |
 | Companion app | Kotlin + Jetpack Compose + BLE foreground service |
+
+<img width="5800" height="2678" alt="20260528_192108" src="https://github.com/user-attachments/assets/f6a0d29c-da44-49e7-99f0-fd75bd74f0ad" />
+
 
 ## Pin Wiring
 
@@ -239,7 +250,5 @@ The APK will be at `companion_app/app/build/outputs/apk/debug/`.
 # Monitor serial
 ~/.platformio/penv/bin/pio device monitor
 ```
-
-<img width="1006" height="2337" alt="homepage" src="https://github.com/user-attachments/assets/66dbbed9-4d53-4e3a-ba3f-9e84031fd014" />
 
 
