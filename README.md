@@ -53,6 +53,7 @@ Power consumption matters on a tiny device with no big battery. Here's what the 
 ---
 
 ## Companion App (Android)
+<img width="4320" height="1920" alt="20260531_002443" src="https://github.com/user-attachments/assets/554e4a92-3c37-44a5-89df-0dc2abea061f" />
 
 The companion app is built with **Jetpack Compose** and runs a **foreground service** to stay connected in the background. It handles everything the watch can't do on its own.
 
