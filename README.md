@@ -2,7 +2,8 @@
 
 A DIY smartwatch and hacking multi-tool built on the **Seeed XIAO ESP32-C6** with an **SSD1306 128×64 OLED** display and four physical buttons. It pairs with a custom Android companion app over BLE and doubles as a wireless keyboard password manager.
 
-<img width="6120" height="2778" alt="20260528_192047" src="https://github.com/user-attachments/assets/6c6c83be-ee9e-43f2-bbd3-b4eea864b8a4" />
+<img width="400" height="184" alt="20260530_232914" src="https://github.com/user-attachments/assets/96e80316-8cea-4e98-8acf-5d7f667ee890" />
+
 
 ## What Is This?
 
