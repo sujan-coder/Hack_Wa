@@ -2,8 +2,7 @@
 
 A DIY smartwatch and hacking multi-tool built on the **Seeed XIAO ESP32-C6** with an **SSD1306 128×64 OLED** display and four physical buttons. It pairs with a custom Android companion app over BLE and doubles as a wireless keyboard password manager.
 
-<img width="400" height="184" alt="20260530_232914" src="https://github.com/user-attachments/assets/96e80316-8cea-4e98-8acf-5d7f667ee890" />
-
+<img width="4592" height="2058" alt="Intro" src="https://github.com/user-attachments/assets/23707be8-487e-4556-baee-698ffc97ffe0" />
 
 ## What Is This?
 
@@ -14,7 +13,7 @@ HackWa started as a simple idea: what if a smartwatch could also be a security t
 
 On top of that, the watch has a **Power Tools** menu with a BLE scanner (see nearby Bluetooth devices and their signal strength) and a BLE advertising jammer for pen-testing scenarios.
 
-<img width="5800" height="2678" alt="20260528_192108" src="https://github.com/user-attachments/assets/f454c0c1-e469-4a1c-8a61-abae160dfa8f" />
+<img width="3056" height="1410" alt="build" src="https://github.com/user-attachments/assets/a47a2a0a-83df-4ead-9850-5d95687c2474" />
 
 ## Features
 
@@ -28,6 +27,8 @@ On top of that, the watch has a **Power Tools** menu with a BLE scanner (see nea
 - **Find My Phone** – press a button on the watch and your phone plays an alarm at max volume, even if it's on silent
 - **Find My Watch** – tap a button in the app and the watch's OLED blinks "FIND ME!" so you can spot it
 
+  <img width="4592" height="2058" alt="Time_Window" src="https://github.com/user-attachments/assets/16a685c6-81ef-49e1-8b0f-60698a414b72" />
+
 ### Password Manager (HID Mode)
 - Stores up to **10 passwords** in on-chip NVS flash (survives reboots and power loss)
 - Switch to HID mode and the watch appears as a standard **Bluetooth keyboard** to any computer or phone
@@ -37,6 +38,8 @@ On top of that, the watch has a **Power Tools** menu with a BLE scanner (see nea
 - **BLE Scanner** – passive scan that lists up to 20 nearby Bluetooth devices with their name, MAC address, and RSSI signal strength
 - **BLE Jammer** – floods the 2.4 GHz BLE advertising channels for pen-testing and security research (shows live packet count and elapsed time)
 - **Always-On Display (AOD)** – keeps the clock visible without sleep timeout; configurable auto-off timer from 5 to 120 minutes
+
+<img width="6112" height="2820" alt="20260205_231853" src="https://github.com/user-attachments/assets/3b47df1d-eab0-4500-bf5f-8daeae503974" />
 
 ### Power Saving
 Power consumption matters on a tiny device with no big battery. Here's what the firmware does to stretch battery life:
@@ -85,6 +88,7 @@ The companion app is built with **Jetpack Compose** and runs a **foreground serv
 
 
 ### Pin Wiring
+<img width="5504" height="2540" alt="20260208_224617" src="https://github.com/user-attachments/assets/a4906c2b-50df-4f14-906a-a0b72a4b76b4" />
 
 | Function | GPIO |
 |----------|------|
@@ -207,8 +211,6 @@ cd companion_app
 The APK will be at `companion_app/app/build/outputs/apk/debug/`.
 
 ---
-
-
 
 ## Tech Stack
 
